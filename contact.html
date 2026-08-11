@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+</head>
+
+<body>
+    <div class="top_page">
+
+    </div>
+    <div class="container">
+        <div class="navigation">
+            <div class="current_page">
+                <a href="index.html">
+                    <img src="images/YT PFP 800x800 update.png" width="50px" height="50px" alt="Logo" class="logo">
+                </a>
+                <h3>Bart van der Klugt</h3>
+            </div>
+
+            <div class="Links">
+                <h3 class="link_text" onclick="location.href='projects.html'">Projecten</h3>
+                <h3 class="link_text" onclick="location.href='about_me.html'">Over mij</h3>
+                <h3 class="link_text" onclick="location.href='contact.html'">Contact</h3>
+            </div>
+        </div>
+
+        <div class="Welcome_Text">
+            <h1 class="hallo_text">Contact💬</h1>
+            <h2>Op deze pagina kan je vinden waar je contact met mij opneemt!</h2>
+            <h3>Er zijn verschillende methoden!</h3>
+        </div>
+    </div>
+    <div class="main_page">
+        <div class="contact_methods">
+            <div class="contact_methods_text">
+                <!-- <h1 class="projects_title">Mijn projecten</h1> -->
+                <!-- <h4>Op deze pagina kan je mijn projecten vinden!</h4> -->
+            </div>
+
+            <div class="contact_container">
+                <h2 class="contact_method_title">Socials voor contact</h2>
+                <img class="social_media_image" onclick="location.href='https:/www.instagram.com/bartvdklugt/'"
+                    src="images/Instagram_icon.png">
+                <img class="social_media_image"
+                    onclick="location.href='https:/www.facebook.com/people/Bart-Van-Der-Klugt/pfbid02gWubTqSycT8biutZQ7sT1CTuFQvKuqGgtLqnNmXryN5wMBdKy2M59hMhK28B4cGsl/'"
+                    src="images/Facebook_Logo_2023.png">
+                <img class="social_media_image"
+                    onclick="location.href='https:/nl.linkedin.com/in/bart-v-0b6418264?trk=people-guest_people_search-card'"
+                    src="images/LinkedIn_icon.svg.webp">
+
+                <div class="contact_container">
+                    <h2 class="contact_method_title">Contact formulier</h2>
+
+                    <div class="form_container">
+                        <form action="action_page.php" class="contact_form">
+
+                            <!-- <label for="fname" class="form_input_text">Voornaam*</label> -->
+                            <input type="text" id="fname" name="firstname" placeholder="Je voornaam..*">
+
+                            <!-- <label for="lname" class="form_input_text">Achternaam*</label> -->
+                            <input type="text" id="lname" name="lastname" placeholder="Je achternaam..*">
+
+                            <!-- <label for="lname" class="form_input_text">E-Mail</label> -->
+                            <input type="text" id="lname" name="lastname" placeholder="Je e-mailadres..*">
+
+                            <!-- <label for="lname" class="form_input_text">Telefoon</label> -->
+                            <input type="text" id="lname" name="lastname" placeholder="Je telefoonnummer..">
+
+                            <!-- <label for="country" class="form_input_text">Land</label> -->
+                            <select id="country" name="country">
+                                <!-- <option value="country">Land</option> -->
+                                <option value="netherlands">Nederland</option>
+                                <option value="united states">Verenigde Staten</option>
+                                <option value="belguim">België</option>
+                                <option value="germany">Duitsland</option>
+                                <option value="other">Anders</option>
+                            </select>
+
+                            <!-- <label for="subject" class="form_input_text">Bericht*</label> -->
+                            <textarea id="subject" name="subject" placeholder="Typ je bericht hier..*"
+                                style="height:200px"></textarea>
+
+                            <input type="submit" value="Stuur">
+
+                        </form>
+                    </div>
+
+                </div>
+                <!-- <h2 class="end_of_projects_text">Maar er is natuurlijk nog veel meer wat ik leuk vind!</h2> -->
+
+                <!-- <div class="main_page_text"> -->
+                <!-- <p class="white_text">Welkom op mijn website! Op deze website kan je van alles vinden over Bart van der Klugt!</p> -->
+                <!-- <p class="white_text">Op deze site kan je dingen vinden zoals mijn projecten, informatie over
+                            mij en veel meer!</p>
+                        <p class="white_text">Druk op een van deze knoppen om naar een specifieke pagina te gaan.</p>
+                    </div> -->
+
+            </div>
+        </div>
+
+        <div class="main_page_text">
+            <!-- <p class="white_text">Welkom op mijn website! Op deze website kan je van alles vinden over Bart van der Klugt!</p> -->
+            <p class="white_text">Op deze site kan je dingen vinden zoals mijn projecten, informatie over
+                mij en veel meer!</p>
+            <p class="white_text">Druk op een van deze knoppen om naar een specifieke pagina te gaan.</p>
+        </div>
+
+        <button class="button" onclick="location.href='projects.html'">Projecten</button>
+        <button class="button" onclick="location.href='about_me.html'">Over mij</button>
+        <button class="button" onclick="location.href='contact.html'">Contact</button>
+        <button class="button" onclick="location.href='gallery.html'">Galerij</button>
+        <button class="button" onclick="location.href='sitemap.html'">Sitemap</button>
+
+        <!-- <p class="white_text">Of je kijkt even verder op deze homepage, hier staat namelijk ook van alles.</p>
+        <p class="white_text"></p> -->
+        <!-- <p class="white_text">Ik ben Bart van der Klugt. Ik ben geboren op 26 oktober 2026.</p> -->
+    </div>
+</body>
+
+</html>
