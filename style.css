@@ -458,6 +458,7 @@ input[type=submit]:hover {
   margin-right: auto;
   font-size: 40px;
   /* text-align: start; */
+  justify-content: center;
 }
 
 /* .form_input_text {
