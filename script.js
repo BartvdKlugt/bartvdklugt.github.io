@@ -23,3 +23,7 @@ for (i = 0; i < images.length; i++) {
     // captionText.innerHTML = this.nextElementSibling.innerHTML;
   }
 }
+
+var form = document.getElementById("myForm");
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('submit', handleForm);
