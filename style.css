@@ -596,10 +596,11 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     /* width: 1000px; */
-    width: 1000px;
+    width: fit-content;
     height: 175px;
     margin-bottom: 25px;
     background-image: linear-gradient(rgba(22, 22, 22, 0.5), rgba(0, 0, 0, 0.5))
+	padding: 15px;
 }
 
 .project_page_hallo_text {
