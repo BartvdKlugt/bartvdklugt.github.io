@@ -1019,3 +1019,48 @@ input[type=submit]:hover {
     font-size: 50px;
     cursor: url("cursor/hand-pointer.svg"), default;
 }
+
+@media only screen and (max-width: 800px) {
+  /* .example {background: red;} */
+  h1 {
+    font-size: 32px;
+  }
+  
+  .project_info {
+    flex-direction: column;
+  }
+
+  .project_page_image {
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project_page_image_description {
+    display: none;
+  }
+
+  .project_page_info_text {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+
+  .hallo_text {
+    font-size: 85px;
+  }
+
+  .about_me_container {
+    flex-direction: column;
+    /* width: 1000px; */
+  }
+
+  .about_me_image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .form_container {
+    max-width: 300px;
+  }
+}
