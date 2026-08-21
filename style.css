@@ -629,6 +629,7 @@ input[type=submit]:hover {
     max-width: 1750px;
     gap: 15px;
     margin-bottom: 20px;
+    padding: 30px;
 }
 
 .project_info_text_image {
