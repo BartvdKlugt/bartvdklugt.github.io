@@ -579,8 +579,8 @@ input[type=submit]:hover {
 }
 
 .project_page_image {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    /* height: 50%; */
     border-radius: 10px;
     border-style: solid;
     border-width: 5px;
@@ -621,12 +621,14 @@ input[type=submit]:hover {
 
 .project_info {
     display: flex;
-    text-align: justify;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     background-color: #00283f;
     border-radius: 75px;
     max-width: 1750px;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .project_info_text_image {
@@ -637,6 +639,7 @@ input[type=submit]:hover {
 }
 .project_page_image {
     margin-right: 25px;
+    max-width: 1000px;
 }
 
 .project_page_info_text {
@@ -652,8 +655,8 @@ input[type=submit]:hover {
 
 .project_page_image_description {
     margin-left: auto;
-    margin-right: 850px;
-    margin-bottom: 75px;
+    margin-right: auto;
+    /* margin-bottom: 75px; */
     font-size: 25px;
 }
 
@@ -1020,6 +1023,11 @@ input[type=submit]:hover {
     cursor: url("cursor/hand-pointer.svg"), default;
 }
 
+.project_page_image_div {
+    display: flex;
+    flex-direction: column;
+}
+
 @media only screen and (max-width: 800px) {
   /* .example {background: red;} */
   h1 {
@@ -1045,6 +1053,10 @@ input[type=submit]:hover {
     margin-top: 25px;
   }
 
+  /* .project_page_image {
+    height: auto;
+  } */
+
   .hallo_text {
     font-size: 85px;
   }
@@ -1063,4 +1075,10 @@ input[type=submit]:hover {
   .form_container {
     max-width: 300px;
   }
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 35px;
+    }
 }
